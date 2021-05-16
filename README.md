@@ -1,4 +1,3 @@
-READ ME
 Generic Red Black Tree with iterators
 project by Sathwik PK and Swarup Totloor
 
