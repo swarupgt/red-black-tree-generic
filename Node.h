@@ -1,3 +1,4 @@
+// Node class
 enum COLOR{ RED, BLACK };
 
 
