@@ -6,7 +6,6 @@ RBTree<T, binop_t> class has 3 main functions, insert, erase, and search.
 	- T class is the type of data to be stored by each node in the tree.
 	- The binop_t class is a predicate based on which the red black tree is sorted.
 
-
 RBTree member functions - 
 
 begin() -> returns an iterator to the beginning of the tree.
@@ -41,7 +40,7 @@ search(const T& obj) -> searches for the given object as a node in the tree, if 
                 - return value - Iterator of type RBTree<T>::Iterator, tree.end() if object doesn't exist.
                 - parameter - const ref to T obj
 
-                - example = RBTree<int>::Iterator x = tree.search(10);
+                - example - RBTree<int>::Iterator x = tree.search(10);
 
 disp() -> displays the tree in-order, along with its color, parent and whether each node is a left node.
         - return value - void
@@ -53,6 +52,8 @@ disp2d() -> displays the tree in 2D, tilted to the left.
 		- return value - void
 		- parameter - none
 
+
+Ideally, class Node must not be used by user.
 
 ----------------------------------------------Iterators-------------------------------------------------------
 
