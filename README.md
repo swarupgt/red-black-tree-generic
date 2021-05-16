@@ -1,4 +1,5 @@
-Generic Red Black Tree with iterators
+Generic implementation of Red Black Trees with iterators
+
 project by Sathwik PK and Swarup Totloor
 
 RBTree<T, binop_t> class has 3 main functions, insert, erase, and search.
