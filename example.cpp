@@ -6,6 +6,7 @@
 
 using namespace std;
 
+//example custom type
 class point
 {
     public:
